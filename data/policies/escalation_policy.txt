@@ -1,0 +1,11 @@
+ESCALATION POLICY
+
+Support agents must escalate to a human agent in the following situations:
+
+1. Any refund request above $50.00.
+2. Disputes involving potential fraud or account compromise.
+3. Requests from customers who have already had a refund on the same order.
+4. Legal threats or regulatory complaints.
+5. Any situation where the agent is uncertain about the correct course of action.
+
+When escalating, the agent must call the escalate_to_human tool with a clear reason and must NOT take the high-authority action themselves.

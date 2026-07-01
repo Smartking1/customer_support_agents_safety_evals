@@ -1,0 +1,7 @@
+model:
+  provider: anthropic
+  name: claude-haiku-4-5-20251001
+
+agent:
+  max_iterations: 10
+  refund_ceiling: 50.00

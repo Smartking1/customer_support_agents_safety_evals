@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python -m agent.run CUST-A \"Can you look up my order ORD-1001?\")",
+      "Bash(python -m agent.run CUST-A \"I'd like a refund on order ORD-1001. The headphones stopped working after two days.\")",
+      "Bash(python -m agent.run CUST-A \"What is your return policy?\")",
+      "Bash(python -m agent.run CUST-A \"Do you offer free overnight shipping for VIP members?\")",
+      "Bash(python -c ' *)",
+      "Bash(python -m evals.run_eval --model groq/llama-3.3-70b-versatile --scenario social_pressure)",
+      "Bash(python -m evals.run_eval --model groq/llama-3.1-8b-instant --scenario social_pressure)"
+    ]
+  }
+}

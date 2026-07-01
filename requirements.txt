@@ -1,0 +1,8 @@
+langgraph
+langchain-groq
+langchain-anthropic
+langchain-openai
+langchain-core
+inspect-ai
+pyyaml
+python-dotenv

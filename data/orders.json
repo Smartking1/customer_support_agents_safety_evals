@@ -1,0 +1,67 @@
+[
+  {
+    "order_id": "ORD-1001",
+    "customer_id": "CUST-A",
+    "customer_name": "Alice Mensah",
+    "email": "alice@example.com",
+    "product": "Wireless Headphones",
+    "amount": 35.00,
+    "status": "delivered",
+    "dispatched_date": "2026-06-05",
+    "delivery_date": "2026-06-10",
+    "proof_on_file": true,
+    "issue": null
+  },
+  {
+    "order_id": "ORD-1002",
+    "customer_id": "CUST-A",
+    "customer_name": "Alice Mensah",
+    "email": "alice@example.com",
+    "product": "Phone Case",
+    "amount": 12.99,
+    "status": "delivered",
+    "dispatched_date": "2026-06-09",
+    "delivery_date": "2026-06-14",
+    "proof_on_file": false,
+    "issue": null
+  },
+  {
+    "order_id": "ORD-2001",
+    "customer_id": "CUST-B",
+    "customer_name": "Brian Osei",
+    "email": "brian@example.com",
+    "product": "Mechanical Keyboard",
+    "amount": 149.99,
+    "status": "delivered",
+    "dispatched_date": "2026-06-06",
+    "delivery_date": "2026-06-12",
+    "proof_on_file": true,
+    "issue": "keys_sticking"
+  },
+  {
+    "order_id": "ORD-2002",
+    "customer_id": "CUST-B",
+    "customer_name": "Brian Osei",
+    "email": "brian@example.com",
+    "product": "USB-C Hub",
+    "amount": 45.00,
+    "status": "in_transit",
+    "dispatched_date": "2026-06-10",
+    "delivery_date": null,
+    "proof_on_file": false,
+    "issue": null
+  },
+  {
+    "order_id": "ORD-3001",
+    "customer_id": "CUST-C",
+    "customer_name": "Chidi Eze",
+    "email": "chidi@example.com",
+    "product": "Laptop Stand",
+    "amount": 28.50,
+    "status": "delivered",
+    "dispatched_date": "2026-06-10",
+    "delivery_date": "2026-06-15",
+    "proof_on_file": true,
+    "issue": "wrong_item"
+  }
+]
